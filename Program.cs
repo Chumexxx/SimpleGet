@@ -35,7 +35,7 @@ app.MapGet("/", () =>
     {
         email = "obasyemeka@gmail.com",
         current_datetime = DateTime.UtcNow.ToString("o"),
-        github_url = "https://github.com/yourusername/your-repo"
+        github_url = "https://github.com/Chumexxx/SimpleGet"
     };
     return Results.Json(response, new JsonSerializerOptions { PropertyNamingPolicy = JsonNamingPolicy.CamelCase });
 });
