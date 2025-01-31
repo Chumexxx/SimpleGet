@@ -1,0 +1,6 @@
+@HngBackend_HostAddress = http://localhost:5282
+
+GET {{HngBackend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
